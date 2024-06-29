@@ -1,3 +1,11 @@
+/* This is Hotel billing Machine project by using Methods concept.
+Advantages of the Methods:
+1.Code Reuseability.
+2.Readability
+3.Maintainability.
+4.Reduce the Complexity.
+5.Easy to debug the errors*/
+
 import java.util.Scanner;
 public class Hotel_Billing_Machine {
         public static void main(String[] args) {
@@ -6,7 +14,7 @@ public class Hotel_Billing_Machine {
             int amount=0;
             int bill=0;
             System.out.println("Get 10% discount above 500/- bill");
-            StringBuilder s=new StringBuilder();
+            StringBuilder s=new StringBuilder();// It appends the specified string to the end of the StringBuilder object.
             boolean m=true;
             System.out.println("Do you want to see Tiffen Menu\nPress y");
             if(sc.next().toLowerCase().equals("y")){
@@ -77,8 +85,7 @@ public class Hotel_Billing_Machine {
                 System.out.println("Ok have a great day");
             }
         }
-
-
+        
         public static int idly(int a,int b){
             return a+(35*b);
         }
